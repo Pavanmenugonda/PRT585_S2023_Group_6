@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Helllo World.week1.props" />
+</Project>
