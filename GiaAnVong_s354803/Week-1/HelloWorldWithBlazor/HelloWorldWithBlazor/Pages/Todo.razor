@@ -1,6 +1,22 @@
 ﻿@page "/todo";
 
-<h3>Todo (@todos.Count(todo=> !todo.IsDone))</h3>
+<h3>Todo test(@todos.Count((todo)=> {
+    String str = todo.Title;
+    String substr1 = "test";
+    return str.ToLower().Contains(substr1.ToLower());
+}))</h3>
+
+<h3>
+    Todo DONE(@todos.Count((todo)=> {
+    return todo.IsDone;
+    }))
+</h3>
+
+<h3>
+    Todo UNDONE(@todos.Count((todo)=> {
+    return !todo.IsDone;
+    }))
+</h3>
 
 <ul>
 
@@ -18,6 +34,7 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
+
     private List<TodoItem> todos = new();
     private string? newTodo;
 
