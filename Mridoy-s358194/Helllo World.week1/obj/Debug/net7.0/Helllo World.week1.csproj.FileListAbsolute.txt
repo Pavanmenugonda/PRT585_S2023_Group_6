@@ -1,0 +1,32 @@
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/appsettings.Development.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/appsettings.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1.staticwebassets.runtime.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1.deps.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1.runtimeconfig.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1.dll
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/bin/Debug/net7.0/Helllo World.week1.pdb
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.csproj.AssemblyReference.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.AssemblyInfoInputs.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.AssemblyInfo.cs
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.csproj.CoreCompileInputs.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.MvcApplicationPartsAssemblyInfo.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.RazorAssemblyInfo.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.RazorAssemblyInfo.cs
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets/msbuild.Helllo World.week1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets/msbuild.build.Helllo World.week1.props
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Helllo World.week1.props
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Helllo World.week1.props
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets.build.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/staticwebassets.development.json
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/scopedcss/bundle/Helllo World.week1.styles.css
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/scopedcss/projectbundle/Helllo World.week1.bundle.scp.css
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.dll
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/refint/Helllo World.week1.dll
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.pdb
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/Helllo World.week1.genruntimeconfig.cache
+/Users/ridoy7/Projects/Helllo World.week1/Helllo World.week1/obj/Debug/net7.0/ref/Helllo World.week1.dll

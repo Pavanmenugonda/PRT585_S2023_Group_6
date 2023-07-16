@@ -1,0 +1,51 @@
+﻿@page "/todo";
+
+<h3>Todo test(@todos.Count((todo)=> {
+    String str = todo.Title;
+    String substr1 = "test";
+    return str.ToLower().Contains(substr1.ToLower());
+}))</h3>
+
+<h3>
+    Todo DONE(@todos.Count((todo)=> {
+    return todo.IsDone;
+    }))
+</h3>
+
+<h3>
+    Todo UNDONE(@todos.Count((todo)=> {
+    return !todo.IsDone;
+    }))
+</h3>
+
+<ul>
+
+    @foreach( var todo in todos)
+    {
+        
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>    
+    }
+</ul>
+
+<input placeholder="Something todo" @bind="newTodo"/>
+<button @onclick="AddTodo">Add todo</button>
+
+@code {
+
+    private List<TodoItem> todos = new();
+    private string? newTodo;
+
+    private void AddTodo()
+    {
+        // Add todo
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem{ Title = newTodo });
+            newTodo = string.Empty;
+        }
+
+    }
+}
