@@ -1,0 +1,64 @@
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\appsettings.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.staticwebassets.runtime.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.exe
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.deps.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.runtimeconfig.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.dll
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.pdb
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.csproj.AssemblyReference.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.AssemblyInfoInputs.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.AssemblyInfo.cs
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.csproj.CoreCompileInputs.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.RazorAssemblyInfo.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.RazorAssemblyInfo.cs
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.HelloWorld_app_1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.build.HelloWorld_app_1.props
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HelloWorld_app_1.props
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HelloWorld_app_1.props
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\bundle\HelloWorld_app_1.styles.css
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\projectbundle\HelloWorld_app_1.bundle.scp.css
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.dll
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\refint\HelloWorld_app_1.dll
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.pdb
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.genruntimeconfig.cache
+C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_1\HelloWorld_app_1\obj\Debug\net7.0\ref\HelloWorld_app_1.dll
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\appsettings.Development.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\appsettings.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.staticwebassets.runtime.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.exe
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.deps.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.runtimeconfig.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.dll
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\bin\Debug\net7.0\HelloWorld_app_1.pdb
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.csproj.AssemblyReference.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.AssemblyInfoInputs.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.AssemblyInfo.cs
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.csproj.CoreCompileInputs.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.MvcApplicationPartsAssemblyInfo.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.RazorAssemblyInfo.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.RazorAssemblyInfo.cs
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.HelloWorld_app_1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.build.HelloWorld_app_1.props
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HelloWorld_app_1.props
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HelloWorld_app_1.props
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.pack.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.build.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\staticwebassets.development.json
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\bundle\HelloWorld_app_1.styles.css
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\scopedcss\projectbundle\HelloWorld_app_1.bundle.scp.css
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.dll
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\refint\HelloWorld_app_1.dll
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.pdb
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\HelloWorld_app_1.genruntimeconfig.cache
+D:\PRT585_S2023_Group_6\ChrisXiang_s349548\PRT585_S2023_Group_6\ChrisXiang_S349548\Week_1\HelloWorld_app_1\obj\Debug\net7.0\ref\HelloWorld_app_1.dll
