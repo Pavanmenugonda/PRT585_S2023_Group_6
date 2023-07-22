@@ -43,8 +43,9 @@
         // Add todo
         if (!string.IsNullOrWhiteSpace(newTodo))
         {
-            todos.Add(new TodoItem{ Title = newTodo });
-            newTodo = string.Empty;
+            TodoItem newTodoItem = new TodoItem { Title = newTodo };
+            todos.Add(newTodoItem);
+            System.Diagnostics.Debug.WriteLine("This is a log");
         }
 
     }

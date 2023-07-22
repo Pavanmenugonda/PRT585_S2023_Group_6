@@ -1,0 +1,12 @@
+<app-about-us></app-about-us>
+This is the app route component
+
+<input name="test"/>
+
+<button (click)="countUp()"> Click me </button>
+
+<h3>Count: {{myCount}}</h3>
+
+<button (click)="hideMe = !hideMe"> Hide me </button>
+<h5 *ngIf ="!hideMe"> Hide text</h5>
+{{hideMe}}

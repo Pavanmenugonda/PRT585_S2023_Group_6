@@ -9,53 +9,104 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HelloWorldWithBlazor
 build_property.RootNamespace = HelloWorldWithBlazor
-build_property.ProjectDir = /Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-1\HelloWorldWithBlazor\HelloWorldWithBlazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor
+build_property.MSBuildProjectDirectory = C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-1\HelloWorldWithBlazor\HelloWorldWithBlazor
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/App.razor]
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Todo.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kby5yYXpvcg==
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/_Imports.razor]
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-2xsu4mmml6
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j9mckalqcf
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6m3h7zispt
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-feu99ybf3l
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ridoy7/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/gvong/PRT585-coding/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/_Host.cshtml]
+=======
+build_property.ProjectDir = c:\Users\Chris\Desktop\PavanGit\Group6-source\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-1\HelloWorldWithBlazor\HelloWorldWithBlazor\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Chris\Desktop\PavanGit\Group6-source\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-1\HelloWorldWithBlazor\HelloWorldWithBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j9mckalqcf
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-feu99ybf3l
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Chris/Desktop/PavanGit/Group6-source/PRT585_S2023_Group_6/GiaAnVong_s354803/Week-1/HelloWorldWithBlazor/HelloWorldWithBlazor/Pages/_Host.cshtml]
+>>>>>>> cb13adab4558d6356c5e99bc968e61d193336fde
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
