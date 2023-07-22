@@ -16,12 +16,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PavanKumar Menugonda\Desktop\PRT585_S2023_Group_6\PavanKumar_Menugonda_s354190\Week_2\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/HelloWorld/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/HelloWorld/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Movies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PavanKumar Menugonda/Desktop/PRT585_S2023_Group_6/PavanKumar_Menugonda_s354190/Week_2/MvcMovie/Views/Shared/Error.cshtml]
