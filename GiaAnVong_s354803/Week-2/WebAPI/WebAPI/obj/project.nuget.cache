@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "6l7GLvnEn8UB6/UzX7tXUVb0RkJI5z5XK6v8B/nSQp8b4jQm7WTNF5q2vNGIzrN4YrwwjJdhScpprTjKNrMHsA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-2\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.OpenApi. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
