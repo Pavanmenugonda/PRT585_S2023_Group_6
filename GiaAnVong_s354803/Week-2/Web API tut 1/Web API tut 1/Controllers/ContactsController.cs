@@ -22,6 +22,7 @@ namespace Web_API_tut_1.Controllers
             return Ok(await dbContext.Contacts.ToListAsync());
         }
 
+
         [HttpPost]
         public async Task<IActionResult> AddContacts(AddContactRequest addContactRequest)
         {
@@ -40,6 +41,18 @@ namespace Web_API_tut_1.Controllers
             return Ok( contact);
         }
 
+        [HttpGet]
+        [Route("{id:guid}")]
+        public async Task<IActionResult> GetContact([FromRoute] Guid id)
+        {
+            var contact = await dbContext.Contacts.FindAsync(id);
+            if (contact != null)
+            {
+              return Ok( contact );  
+            }
+            return NotFound();
+        }
+
         [HttpPut]
         [Route("{id:guid}")]
         public async Task<IActionResult> UpdateContact([FromRoute] Guid id ,UpdateContactRequest updateContactRequest)
@@ -56,6 +69,20 @@ namespace Web_API_tut_1.Controllers
                 return Ok( contact);
             }
 
+            return NotFound();
+        }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public async Task<IActionResult> DeleteContact([FromRoute] Guid id)
+        {
+            var contact = await dbContext.Contacts.FindAsync(id);
+            if (contact != null)
+            {
+                dbContext.Contacts.Remove(contact);
+                await dbContext.SaveChangesAsync();
+                return Ok( contact );
+            }
             return NotFound();
         }
     }
