@@ -1,0 +1,40 @@
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\appsettings.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Web API tut 1.exe
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Web API tut 1.deps.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Web API tut 1.runtimeconfig.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Web API tut 1.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Web API tut 1.pdb
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.csproj.AssemblyReference.cache
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.AssemblyInfoInputs.cache
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.AssemblyInfo.cs
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.csproj.CoreCompileInputs.cache
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets\msbuild.Web API tut 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets\msbuild.build.Web API tut 1.props
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Web API tut 1.props
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Web API tut 1.props
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\scopedcss\bundle\Web API tut 1.styles.css
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.csproj.CopyComplete
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\refint\Web API tut 1.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.pdb
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\Web API tut 1.genruntimeconfig.cache
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\obj\Debug\net7.0\ref\Web API tut 1.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gvong\PRT585-coding\PRT585_S2023_Group_6\GiaAnVong_s354803\Week-2\Web API tut 1\Web API tut 1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
