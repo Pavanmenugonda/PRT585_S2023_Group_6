@@ -29,9 +29,10 @@
                     <label for="department">Department</label>
                     <input type="text" class="form-control" id="department"  placeholder="Department name"  [(ngModel)]="employeeDetail.department" name="department">
                 </div>
-                
-                <button type="submit" class="btn btn-primary">Save</button>
-                <button type="button" class="btn btn-danger" (click)="DeleteEmployeeInfo()">Delete</button>
+                <div class="form-group mb-3 d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary" >Save</button>
+                    <button type="button" class="btn btn-danger" (click)="DeleteEmployeeInfo()" >Delete</button>
+                </div>
             </form>
         </div>
     </div>
