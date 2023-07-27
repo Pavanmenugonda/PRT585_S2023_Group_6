@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\MVC_Enrolment_demo.props" />
-</Project>

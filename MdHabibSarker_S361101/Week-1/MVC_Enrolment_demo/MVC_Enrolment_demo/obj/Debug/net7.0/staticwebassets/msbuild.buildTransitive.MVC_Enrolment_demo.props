@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\MVC_Enrolment_demo.props" />
-</Project>
