@@ -1,0 +1,15 @@
+.NavBar {
+    color: whitesmoke;
+    background-color: darkblue;
+    margin: 0 0 0 0;
+}
+
+.Menu {
+    margin: 0 0 0 0;
+    padding: 25px;
+    flex: 1 1 auto;
+}
+
+.SignUpButton {
+    background-color: red;
+}
