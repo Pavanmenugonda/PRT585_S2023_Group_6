@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{69DC39F5-E096-4BAD-99EA-932EBBBE0703}|https" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVC_Enrolment_demo/Views/Employees/Add.cshtml">
+    <Files>
+      <File FileName="MVC_Enrolment_demo/Program.cs" />
+      <File FileName="MVC_Enrolment_demo/appsettings.json" />
+      <File FileName="MVC_Enrolment_demo/Views/Employees/Add.cshtml" Line="5" Column="1" />
+      <File FileName="MVC_Enrolment_demo/Views/Employees/Index.cshtml" Line="17" Column="23" />
+      <File FileName="MVC_Enrolment_demo/Views/Employees/View.cshtml" Line="11" Column="1" />
+      <File FileName="MVC_Enrolment_demo/Views/Shared/_Layout.cshtml" Line="31" Column="126" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVC_Enrolment_demo" expanded="True">
+            <Node name="MVC_Enrolment_demo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Employees" expanded="True">
+                  <Node name="Add.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MVC__Enrolment__demo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
