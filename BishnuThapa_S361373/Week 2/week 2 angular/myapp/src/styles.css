@@ -1,0 +1,66 @@
+/* Center the table */
+.table-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: If you want to center the table vertically */
+  }
+  
+  /* Increase font size */
+  table {
+    font-size: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000;
+
+  }
+  
+  table th,
+  table td {
+    padding: 10px 20px;
+    border: 2px solid #000;
+
+  }
+  
+  /* Forms  design */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .table-container .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

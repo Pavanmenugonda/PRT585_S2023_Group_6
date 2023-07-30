@@ -1,0 +1,91 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<div class="table-container">
+  <h1> 1. Table design Sample</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of rows">
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Name }}</td>
+        <td>{{ row.Age}}</td>
+        <td>{{ row.Gender }}</td>
+        <td>{{ row.Country }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>2. Form design</h1>
+  <div class="container" ng-app="myApp" ng-controller="FormController">
+    <form ng-submit="submitForm()">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" ng-model="formData.firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" ng-model="formData.lname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country" ng-model="formData.country" required>
+            <option value="australia">Nepal</option>
+            <option value="canada">Austrial</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" ng-model="formData.subject" placeholder="Write something.."
+            style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<script>
+  angular.module('myApp', [])
+    .controller('FormController', function ($scope)
+    {
+      $scope.formData = {};
+
+      // Function to submit the form data
+      $scope.submitForm = function ()
+      {
+        // Perform the CRUD operation here, e.g., send the data to the server or update the local data store.
+        // For simplicity, we'll just log the data in the console.
+        console.log('Form Data:', $scope.formData);
+
+        // Reset the form after submission
+        $scope.formData = {};
+      };
+    });
+</script>
