@@ -1,0 +1,57 @@
+<div mat-dialog-title>Employee Form</div>
+
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+    <div class="row">
+        <mat-form-field appearance="outline">
+        <mat-label>Fullname</mat-label>
+        <input matInput placeholder="Ex. Joe Doe" formControlName="name"/>
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline" class="example-full-width">
+            <mat-label>Date Of Birth</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="dateOfBirth">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker">
+            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>      
+    </div>
+    <div class="row">
+        <mat-radio-group aria-label="Select an option" appearance="outline" formControlName="gender">
+            <mat-label>Gender</mat-label>
+            <mat-radio-button value="male">Male</mat-radio-button>
+            <mat-radio-button value="female">Female</mat-radio-button>
+            <mat-radio-button value="others">Others</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    
+    <div class="row">
+        <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="Ex. test@test.co" formControlName="email"/>
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+        <input matInput placeholder="Phone" formControlName="phone"/>
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+        <input matInput placeholder="Salary" formControlName="salary" type="number"/>
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+        <input matInput placeholder="Department" formControlName="department"/>
+        </mat-form-field>
+    </div>
+    </div>
+    <div mat-dialog-actions class="action">
+    <button mat-raised-button>Cancel</button>
+    <button mat-raised-button color="primary" type="submit">Save</button>
+    </div>
+</form>
