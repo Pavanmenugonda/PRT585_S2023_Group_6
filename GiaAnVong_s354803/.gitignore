@@ -2,3 +2,5 @@
 .vs/*
 
 ./Week-1//Week-1/HelloWorldWithBlazor/.vs/
+./Week-3/MvcMovie/MvcMovie/bin
+./Week-3/MvcMovie/MvcMovie/obj

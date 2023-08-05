@@ -11341,11 +11341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-2\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-3\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-2\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-3\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\gvong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-2\\MvcMovie\\MvcMovie\\obj\\",
+      "outputPath": "C:\\Users\\gvong\\PRT585-coding\\PRT585_S2023_Group_6\\GiaAnVong_s354803\\Week-3\\MvcMovie\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gvong\\AppData\\Roaming\\NuGet\\NuGet.Config",
