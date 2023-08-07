@@ -4,12 +4,14 @@ Reference the resource: https://material.angular.io/
 
 ## Installation
 
+## Reminder in week 3 tutorial
 npm install
 npm start
 
 Reference link: https://www.youtube.com/watch?v=CdE6rVfPJ9I&t=4523s
 Angular 14 CRUD with .NET 6 Web API using Entity Framework Core - Full Course
 
+make angular api service to call the api from the backend
 
 ## Features:
 * Employee List
@@ -28,7 +30,7 @@ Angular 14 CRUD with .NET 6 Web API using Entity Framework Core - Full Course
 The API is using from 
 week-3\WebAPI-CRUD-Contacts 
 
-## Add Angular theme
+## Week 4 tasks - Add Angular theme
 ng add @angular/material
 
 Guidline - install the package following the link: https://material.angular.io/guide/getting-started

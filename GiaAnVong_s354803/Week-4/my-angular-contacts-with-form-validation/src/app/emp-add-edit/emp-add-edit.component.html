@@ -1,6 +1,5 @@
-<div mat-dialog-title>Employee Form</div>
-
 <form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-title>Employee Form</div>
     <div mat-dialog-content class="content">
     <div class="row">
         <mat-form-field appearance="outline">
@@ -66,9 +65,8 @@
     </div>
     </div>
     <div mat-dialog-actions class="action">
-    <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
-    <button mat-raised-button color="primary" type="submit">{{data ? "Save" : "Add"}}</button>
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? "Save" : "Add"}}</button>
     </div>
 </form>
 
-aaa

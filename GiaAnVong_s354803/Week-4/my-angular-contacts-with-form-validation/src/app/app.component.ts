@@ -87,6 +87,25 @@ export class AppComponent implements OnInit {
       }
     });
   }
+  
+  openEditEmpForm(data: any) {
+    const dialogRef = this._dialog.open(EmpAddEditComponent, {
+      data: data,
+      width: '60%',
+      height: '80%'
+    });
+    dialogRef.afterClosed().subscribe({
+      next: (result) => {
+        console.log(result);
+        if(result) {
+          this.getEmployeesList();
+        }
+      },
+      error: (err) => {
+        console.log(err);
+      }
+    });
+  }
 
   getEmployeesList() {
     this.employeesService.getAllemployees().subscribe({
@@ -145,22 +164,5 @@ export class AppComponent implements OnInit {
       }
     });
   }
-  openEditEmpForm(data: any) {
-    const dialogRef = this._dialog.open(EmpAddEditComponent, {
-      data: data,
-      width: '60%',
-      height: '80%'
-    });
-    dialogRef.afterClosed().subscribe({
-      next: (result) => {
-        console.log(result);
-        if(result) {
-          this.getEmployeesList();
-        }
-      },
-      error: (err) => {
-        console.log(err);
-      }
-    });
-  }
+  
 }
