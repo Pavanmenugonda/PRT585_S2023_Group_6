@@ -300,3 +300,15 @@
   .example-spacer {
     flex: 1 1 auto;
   }
+
+  .data-container {
+    
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 80%;
+
+  }
+
+  .data-container mat-form-field, .data-container mat-paginator {
+    width: 100%;
+  }
