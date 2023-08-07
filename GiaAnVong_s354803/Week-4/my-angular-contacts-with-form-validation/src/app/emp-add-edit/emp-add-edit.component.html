@@ -4,15 +4,20 @@
     <div mat-dialog-content class="content">
     <div class="row">
         <mat-form-field appearance="outline">
-        <mat-label>Fullname</mat-label>
-        <input matInput placeholder="Ex. Joe Doe" formControlName="name"/>
+            <mat-label>Fullname</mat-label>
+            <input matInput placeholder="Ex. Joe Doe" formControlName="name"/>
+            <mat-error *ngIf="empForm.get('name')">
+                Name is required.
+            </mat-error>
         </mat-form-field>
+        
     </div>
     <div class="row">
-        <mat-form-field appearance="outline" class="example-full-width">
+        <mat-form-field appearance="outline" clasns="example-full-width">
             <mat-label>Date Of Birth</mat-label>
             <input matInput [matDatepicker]="picker" formControlName="dateOfBirth">
             <mat-hint>MM/DD/YYYY</mat-hint>
+            
             <mat-datepicker-toggle matIconSuffix [for]="picker">
             <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
             </mat-datepicker-toggle>
@@ -26,13 +31,23 @@
             <mat-radio-button value="female">Female</mat-radio-button>
             <mat-radio-button value="others">Others</mat-radio-button>
         </mat-radio-group>
+        <mat-error *ngIf="empForm.get('gender')!.errors && empForm.get('gender')!.touched">
+            Gender is required.
+        </mat-error>
     </div>
     
     <div class="row">
         <mat-form-field appearance="outline">
-        <mat-label>Email</mat-label>
-        <input matInput type="email" placeholder="Ex. test@test.co" formControlName="email"/>
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="Ex. test@test.co" formControlName="email" [errorStateMatcher]="matcher"/>
+            <mat-error *ngIf="empForm.hasError('email') && !empForm.hasError('required')">
+                Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="empForm.hasError('required')">
+            Email is <strong>required</strong>
+            </mat-error>
         </mat-form-field>
+        
     </div>
     <div class="row">
         <mat-form-field appearance="outline">
@@ -55,3 +70,5 @@
     <button mat-raised-button color="primary" type="submit">{{data ? "Save" : "Add"}}</button>
     </div>
 </form>
+
+aaa

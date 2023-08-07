@@ -26,6 +26,9 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSort, MatSortModule } from '@angular/material/sort';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MessageDialogComponent } from './components/message-dialog/message-dialog.component';
+import {ErrorStateMatcher, ShowOnDirtyErrorStateMatcher} from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,7 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
     AddEmployeeComponent,
     EditEmployeeComponent,
     EmpAddEditComponent,
+    MessageDialogComponent,
     
   ],
   imports: [
@@ -57,8 +61,11 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
     ReactiveFormsModule,
     MatPaginatorModule,
     MatSortModule,
+    MatSnackBarModule,
   ],
-  providers: [],
+  providers: [
+    {provide: ErrorStateMatcher, useClass: ShowOnDirtyErrorStateMatcher}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

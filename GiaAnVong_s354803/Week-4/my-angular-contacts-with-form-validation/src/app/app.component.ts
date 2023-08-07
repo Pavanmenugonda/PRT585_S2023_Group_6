@@ -10,6 +10,8 @@ import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { CoreService } from './core/core.service';
+import { MessageDialogComponent } from './components/message-dialog/message-dialog.component';
 
 // export interface PeriodicElement {
 //   name: string;
@@ -60,7 +62,7 @@ export class AppComponent implements OnInit {
   ];
   // dataSource = ELEMENT_DATA;
 
-  constructor (private _dialog: MatDialog, private employeesService: EmployeesService) {}
+  constructor (private _dialog: MatDialog, private employeesService: EmployeesService, private coreService: CoreService) {}
   
   ngOnInit(): void {
     this.getEmployeesList();
@@ -110,11 +112,13 @@ export class AppComponent implements OnInit {
     }
   }
 
-  DeleteEmployeeInfo(id: string) {
-    this.employeesService.DeleteEmployee(id).subscribe({
+  deleteEmployeeInfo(id: string) {
+
+    this.employeesService.deleteEmployee(id).subscribe({
       next: (employee) => {
         console.log(employee);
-        alert("Employee deleted successfully!");
+        // alert("Employee deleted successfully!");
+        this.coreService.openSnackBar("Employee deleted successfully!", "Close");
         this.getEmployeesList();
       },
       error: (err) => {
@@ -123,6 +127,24 @@ export class AppComponent implements OnInit {
     })
   }
 
+  confirmDelete(id: string) {
+    const dialogRef = this._dialog.open(MessageDialogComponent, {
+      width: '250px',
+      data: {title: "Delete Employee", message: "Are you sure you want to delete this employee?"}
+    });
+    dialogRef.afterClosed().subscribe({
+      next: (result) => {
+        console.log('result', result);
+        if (result==true) {
+          console.log('delete');
+          this.deleteEmployeeInfo(id);
+        }
+      },
+      error: (err) => {
+        console.log(err);
+      }
+    });
+  }
   openEditEmpForm(data: any) {
     const dialogRef = this._dialog.open(EmpAddEditComponent, {
       data: data,
