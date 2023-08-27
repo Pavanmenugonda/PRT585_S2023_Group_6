@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Functions\Crud\**" />
+    <EmbeddedResource Remove="Functions\Crud\**" />
+    <None Remove="Functions\Crud\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Functions\Interfaces\ICRUD.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.sqlserver" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.sqlserver.design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.configuration.json" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
