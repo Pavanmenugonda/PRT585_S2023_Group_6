@@ -1,0 +1,25 @@
+.main {
+    background-color: black;
+}
+
+.bg-green-500 {
+    background-color: #38c172;
+    border: none;
+}
+
+.bg-red-500 {
+    background-color: #e3342f;
+    border: none;
+}
+
+.m-1 {
+    margin: 0.25rem;
+}
+
+.p-1 {
+    padding: 0.25rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+  }
