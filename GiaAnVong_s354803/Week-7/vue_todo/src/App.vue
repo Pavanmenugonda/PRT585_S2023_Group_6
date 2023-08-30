@@ -8,6 +8,7 @@
       </div>
       <div class="col-md-3 col text-start">
         <span :class="{ 'line-through': todo.done }">{{ todo.text }} </span>
+        
       </div>
       <div class="col-md-1 col text-start">
         <button @click="removeTodo(todo.id)" class="bg-red-500 m-1 p-1">
