@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LibraryAppCoreAppAngularNTierApp",
+    "\\LibraryAppCoreAppAngularNTierApp\\LOGIC\\Services",
+    "\\LibraryAppCoreAppAngularNTierApp\\LOGIC\\Services\\Models",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Controllers",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Models",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Models\\Applicant",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Models\\Application",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Models\\ApplicationStatus",
+    "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\Models\\Student"
+  ],
+  "SelectedNode": "\\LibraryAppCoreAppAngularNTierApp\\WebAPIApp\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}
