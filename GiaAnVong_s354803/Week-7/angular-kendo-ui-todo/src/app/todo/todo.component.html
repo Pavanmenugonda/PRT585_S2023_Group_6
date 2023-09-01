@@ -1,0 +1,23 @@
+<div @todoAnimations>
+  <h1>Angular Kendo UI Todo App</h1>
+  <input
+    kendoTextBox
+    type="text"
+    placeholder="Add a todo item"
+    class="new-todo-input"
+    #itemInput
+    (keyup.enter)="addTodo(itemInput)"
+  />
+
+  <div *ngIf="todos" class="list-group">
+    <button
+      kendoButton
+      type="button"
+      class="todo" @todoItem
+      *ngFor="let todo of todos; index as i"
+    >
+      <span (click)="removeTodo(i)">{{ todo.title }}</span>
+    </button>
+  </div>
+  <div *ngIf="todos.length == 0" @fade class="finished-list">Hey guys, you are legend!</div>
+</div>
