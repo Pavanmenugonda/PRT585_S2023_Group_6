@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Models\Applicant\**" />
+    <Compile Remove="Services\Models\ApplicationStatus\**" />
+    <Compile Remove="Services\Models\Application\**" />
+    <Compile Remove="Services\Models\Grade\**" />
+    <EmbeddedResource Remove="Services\Models\Applicant\**" />
+    <EmbeddedResource Remove="Services\Models\ApplicationStatus\**" />
+    <EmbeddedResource Remove="Services\Models\Application\**" />
+    <EmbeddedResource Remove="Services\Models\Grade\**" />
+    <None Remove="Services\Models\Applicant\**" />
+    <None Remove="Services\Models\ApplicationStatus\**" />
+    <None Remove="Services\Models\Application\**" />
+    <None Remove="Services\Models\Grade\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Implementation\Applicant_Service.cs" />
+    <Compile Remove="Services\Implementation\ApplicationStatus_Service.cs" />
+    <Compile Remove="Services\Implementation\Application_Service.cs" />
+    <Compile Remove="Services\Implementation\Grade_Service.cs" />
+    <Compile Remove="Services\Interfaces\IApplicant_Service.cs" />
+    <Compile Remove="Services\Interfaces\IApplicationStatus_Service.cs" />
+    <Compile Remove="Services\Interfaces\IApplication_Service.cs" />
+    <Compile Remove="Services\Interfaces\IGrade_Service.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+</Project>

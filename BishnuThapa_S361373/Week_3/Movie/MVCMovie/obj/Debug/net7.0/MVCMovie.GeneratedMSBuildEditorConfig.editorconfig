@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCMovie
 build_property.RootNamespace = MVCMovie
-build_property.ProjectDir = C:\Users\Asus\Documents\CDU third semisete\Software Practice\PRT585_S2023_Group_6\BishnuThapa_S361373\Week_3\Movie\MVCMovie\
+build_property.ProjectDir = c:\Users\Asus\Documents\CDU third semisete\Software Practice\PRT585_S2023_Group_6\BishnuThapa_S361373\Week_3\Movie\MVCMovie\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Asus\Documents\CDU third semisete\Software Practice\PRT585_S2023_Group_6\BishnuThapa_S361373\Week_3\Movie\MVCMovie
+build_property.MSBuildProjectDirectory = c:\Users\Asus\Documents\CDU third semisete\Software Practice\PRT585_S2023_Group_6\BishnuThapa_S361373\Week_3\Movie\MVCMovie
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/HelloWorld/Index.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/HelloWorld/Welcome.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/HelloWorld/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Home/Index.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Home/Privacy.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Create.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Delete.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Details.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Edit.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Index.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/Error.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/_ViewImports.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/_ViewStart.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/_Layout.cshtml]
+[c:/Users/Asus/Documents/CDU third semisete/Software Practice/PRT585_S2023_Group_6/BishnuThapa_S361373/Week_3/Movie/MVCMovie/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4sd2juyvsg
