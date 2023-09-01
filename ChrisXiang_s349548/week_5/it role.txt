@@ -1,0 +1,25 @@
+System analyst
+
+
+Skills and tools:
+• Excellent verbal and written communication skills.
+• Excellent interpersonal skills with a proven ability to collaborate with a team.
+• Excellent analytical and problem-solving skills.
+• Extensive knowledge of computer systems and programming.
+• Excellent organizational skills and attention to detail.
+• Proficient with Microsoft Office Suite or related software.
+• Proficient with or able to quickly learn systems and software used by the organization.
+• web mapping applications, relational databases, and data analytics systems.
+
+
+• An understanding of how technology and data may interact with each other behind the scenes;
+• General knowledge of development pipelines;
+• IT technical knowledge with the ability to grasp new technologies effectively - a quick learner!
+• A commitment to high level of customer service;
+• Excellent time management and organisational skills with the ability to multi-task and prioritise work;
+• Ability to analyse problems, determine the root cause and reach a resolution;
+• A keen attention to detail;
+
+
+
+Desirable 1. Knowledge of the ESRI suite of software including desktop and server environments. 2. Knowledge of Oracle Spatial databases and ETL tools like FME. 3. Knowledge of PowerBI and Tableau or equivalent.

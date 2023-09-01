@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Applicant\**" />
+    <Compile Remove="Models\ApplicationStatus\**" />
+    <Compile Remove="Models\Application\**" />
+    <Compile Remove="Models\Grade\**" />
+    <Content Remove="Models\Applicant\**" />
+    <Content Remove="Models\ApplicationStatus\**" />
+    <Content Remove="Models\Application\**" />
+    <Content Remove="Models\Grade\**" />
+    <EmbeddedResource Remove="Models\Applicant\**" />
+    <EmbeddedResource Remove="Models\ApplicationStatus\**" />
+    <EmbeddedResource Remove="Models\Application\**" />
+    <EmbeddedResource Remove="Models\Grade\**" />
+    <None Remove="Models\Applicant\**" />
+    <None Remove="Models\ApplicationStatus\**" />
+    <None Remove="Models\Application\**" />
+    <None Remove="Models\Grade\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ApplicantController.cs" />
+    <Compile Remove="Controllers\ApplicationController.cs" />
+    <Compile Remove="Controllers\ApplicationStatusController.cs" />
+    <Compile Remove="Controllers\GradeController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LOGIC\LOGIC.csproj" />
+  </ItemGroup>
+
+</Project>

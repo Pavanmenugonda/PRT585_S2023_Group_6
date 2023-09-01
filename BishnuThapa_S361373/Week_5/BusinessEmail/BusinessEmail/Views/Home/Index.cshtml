@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Email FormPage";
+}
+@if(ViewBag.Error != null)
+{
+    <h2>@ViewBag.Error</h2>
+}
+
+<form action="Form" method="post">
+    <span class="form-control-static">
+        Receiver Email:</span>
+        <input class="form-control" type="text" name="receive"></input>
+        <span class="form-control-static"> Subject</span>
+        <input class="form-control" type="text" name="subject"></input>
+        <span class="form-control-static"> Message</span>
+        <input class="form-control" type="text" name="  Message"></input>
+        <br />
+        <br />
+        <button class="btn btn-primary" type="Submit">Send Email</button>
+
+</form>
