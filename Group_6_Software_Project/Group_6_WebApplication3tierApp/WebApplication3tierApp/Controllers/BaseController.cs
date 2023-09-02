@@ -7,7 +7,7 @@ using System.DirectoryServices.Protocols;
 namespace WebApplication3tierApp.Controllers
 {
 
-    [Authorize]
+    //[Authorize]
     public abstract class BaseController : ControllerBase
     {
         

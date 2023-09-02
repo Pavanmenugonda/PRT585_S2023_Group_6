@@ -8,7 +8,8 @@ namespace WebApplication3tierApp.Models
         public string GivenName { get; set; }
         public string FamilyName { get; set; }
         public string? PreferredName { get; set; }
-        public DateTime? DateOfBirth { get; set; }                
+        public DateTime? DateOfBirth { get; set; }        
+        public bool IsDeleted { get; set; }
     }
 
     public static class PersonDtoMapExtensions
@@ -20,7 +21,8 @@ namespace WebApplication3tierApp.Models
             dst.GivenName = src.GivenName;
             dst.FamilyName = src.FamilyName;
             dst.PreferredName = src.PreferredName;
-            dst.DateOfBirth = src.DateOfBirth;            
+            dst.DateOfBirth = src.DateOfBirth;   
+            dst.IsDeleted = src.IsDeleted;
             return dst;
         }
 
@@ -31,7 +33,8 @@ namespace WebApplication3tierApp.Models
             dst.GivenName = src.GivenName;
             dst.FamilyName = src.FamilyName;
             dst.PreferredName = src.PreferredName;
-            dst.DateOfBirth = src.DateOfBirth;            
+            dst.DateOfBirth = src.DateOfBirth;           
+            dst.IsDeleted = src.IsDeleted;
             return dst;
         }
     }

@@ -17,10 +17,25 @@ namespace _2DataAccessLayer.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.9")
+                .HasAnnotation("ProductVersion", "7.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("SystemActionUserAccount", b =>
+                {
+                    b.Property<int>("SystemActionsSystemActionID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserAccountsUserAccountID")
+                        .HasColumnType("int");
+
+                    b.HasKey("SystemActionsSystemActionID", "UserAccountsUserAccountID");
+
+                    b.HasIndex("UserAccountsUserAccountID");
+
+                    b.ToTable("SystemActionUserAccount");
+                });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Employee", b =>
                 {
@@ -28,7 +43,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmployeeId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmployeeId"));
 
                     b.Property<string>("EmployeeName")
                         .IsRequired()
@@ -45,7 +60,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovieId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovieId"));
 
                     b.Property<string>("MovieName")
                         .IsRequired()
@@ -62,7 +77,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PersonId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PersonId"));
 
                     b.Property<DateTime?>("DateOfBirth")
                         .HasColumnType("datetime2");
@@ -92,7 +107,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"));
 
                     b.Property<string>("StudentName")
                         .IsRequired()
@@ -109,7 +124,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SystemActionID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SystemActionID"));
 
                     b.Property<string>("ActionCode")
                         .IsRequired()
@@ -130,7 +145,7 @@ namespace _2DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserAccountID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserAccountID"));
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -143,21 +158,6 @@ namespace _2DataAccessLayer.Migrations
                     b.HasKey("UserAccountID");
 
                     b.ToTable("UserAccounts");
-                });
-
-            modelBuilder.Entity("SystemActionUserAccount", b =>
-                {
-                    b.Property<int>("SystemActionsSystemActionID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserAccountsUserAccountID")
-                        .HasColumnType("int");
-
-                    b.HasKey("SystemActionsSystemActionID", "UserAccountsUserAccountID");
-
-                    b.HasIndex("UserAccountsUserAccountID");
-
-                    b.ToTable("SystemActionUserAccount");
                 });
 
             modelBuilder.Entity("SystemActionUserAccount", b =>
