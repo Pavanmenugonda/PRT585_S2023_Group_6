@@ -1,14 +1,39 @@
-<div class="container">
-  <h3 class="d-flex justify-content-center">Angular 13 CRUD using .Net Core Web API </h3>
-  <nav class="navbar navbar-expand-sm bg-light navbar-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <button routerLink="department" class="m-1 btn btn-light btn-outline-primary" Button>Departments</button>
-      </li>
-      <li class="nav-item">
-        <button routerLink="person" class="m-1 btn btn-light btn-outline-primary" Button>Person</button>
-      </li>
-    </ul>
-  </nav>
-  <router-outlet></router-outlet>
-</div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Student App</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            routerLink="student"
+            class="nav-link active"
+            aria-current="page"
+            href="#"
+            >Students</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            routerLink="person"
+            class="nav-link active"
+            aria-current="page"
+            href="#"
+            >Person</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
