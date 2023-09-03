@@ -1,0 +1,21 @@
+<div class="container my-5">
+    <h1 class="mb-3">Students</h1>
+    
+
+    <kendo-grid
+    [kendoGridBinding]="students"
+    [pageable]="true"
+    [pageSize]="50"
+    [sortable]="true"
+    [filterable]="true"
+    
+    >
+        <kendo-grid-column field="StudentId" title="Student ID">
+        </kendo-grid-column>
+        <kendo-grid-column field="StudentName" title="Student Name">
+        </kendo-grid-column>
+</kendo-grid>
+</div>
+
+
+
