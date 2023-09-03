@@ -1,0 +1,36 @@
+<div class="container my-5">
+    <h1 class="mb-3">Student Detail</h1>
+    <div class="example-config">
+        <p>
+          
+        </p>
+
+    </div>
+
+    <form class="k-form k-form-md" [formGroup]="form">
+        <h5>Name should be at least three characters long.</h5>
+        <kendo-formfield>
+          <kendo-label [for]="StudentName" text="Full Name"></kendo-label>
+          <kendo-textbox
+            formControlName="StudentName"
+            [clearButton]="true"
+            #StudentName
+            required
+          ></kendo-textbox>
+    
+          <kendo-formerror>Error: Full Name is required</kendo-formerror>
+        </kendo-formfield>
+    
+    
+        <div class="k-form-buttons">
+          <button kendoButton themeColor="primary" (click)="submitForm()">
+            {{data.StudentID ? "Save" : "Add"}}
+          </button>
+          <button kendoButton (click)="clearForm()">Clear</button>
+        </div>
+      </form>
+    
+</div>
+
+
+
