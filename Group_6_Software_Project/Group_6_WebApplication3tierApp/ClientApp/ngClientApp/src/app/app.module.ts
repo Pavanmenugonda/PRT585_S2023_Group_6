@@ -8,6 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PersonComponent } from './components/person/person.component';
 import { StudentComponent } from './components/student/student.component';
 import { GridModule } from '@progress/kendo-angular-grid';
+import { FormsModule } from "@angular/forms";
+import { ButtonsModule } from "@progress/kendo-angular-buttons";
+import { InputsModule } from "@progress/kendo-angular-inputs";
 
 
 @NgModule({
@@ -18,10 +21,13 @@ import { GridModule } from '@progress/kendo-angular-grid';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    GridModule
+    GridModule,
+    FormsModule,
+    ButtonsModule,
+    InputsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
