@@ -32,7 +32,7 @@ namespace WebApplication3tierApp.Controllers
         //    return new JsonResult(ss);
         //}
 
-        [HttpGet("", Name = "GetAll")]
+        [HttpGet("", Name = "GetAllPerson")]
         public async Task<List<PersonDto>> GetAll()
         {
             var result = await _personService.GetAll();
