@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2DataAccessLayer.Context.Models
+namespace _1CommonInfrastructure.Models
 {
-    public class Movie
+    public class MovieModel
     {
         public int MovieId { get; set; } // int
         public string MovieName { get; set; } // nvarchar(400)
@@ -14,6 +14,5 @@ namespace _2DataAccessLayer.Context.Models
         public DateTime? ReleaseDate { get; set; }
         public string? Description { set; get; } // nvarvarchar(400)
         public bool IsDeleted { get; set; } // bit
-        
     }
 }
