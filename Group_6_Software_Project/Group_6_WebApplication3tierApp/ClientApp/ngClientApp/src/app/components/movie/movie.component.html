@@ -1,4 +1,4 @@
-<div class="container my-5">
+<!-- <div class="container my-5">
     <h1 class="mb-3">Movies</h1>
     <a class="btn btn-primary" routerLink="movie-add">Add movie</a>
     
@@ -21,4 +21,18 @@
         </kendo-grid-column>
     </kendo-grid>
 </div>
+ -->
 
+<div class="container text-center mt-4">
+  <div class="row row-cols-4 column-gap-5 row-gap-4">
+    <div *ngFor="let item of movies" class="card me-auto" style="width: 15rem">
+      <img src="{{ imageSrc }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ item.MovieName }}</h5>
+        <p class="card-text">{{ item.Genre }}</p>
+        <p class="card-text">{{ item.Description }}</p>
+        <a href="#" class="btn btn-primary">click here</a>
+      </div>
+    </div>
+  </div>
+</div>

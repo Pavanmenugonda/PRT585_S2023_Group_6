@@ -11,6 +11,10 @@ import { MoviesService } from 'src/app/services/movies.service';
 export class MovieComponent implements OnInit {
   movies: Movie[] = [];
 
+  imageSrc = 'https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg?region=0,0,540,810&width=320'
+  imageAlt = 'sample movie'
+
+
   constructor(private moviesService: MoviesService) { }
 
   ngOnInit(): void {
