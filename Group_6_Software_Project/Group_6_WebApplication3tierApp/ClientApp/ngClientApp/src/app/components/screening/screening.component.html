@@ -1,0 +1,23 @@
+<div class="container my-5">
+    <h1 class="mb-3">Screenings</h1>
+    <a class="btn btn-primary" routerLink="movie-add">Add screening</a>
+    
+    <kendo-grid
+    [kendoGridBinding]="screenings"
+    [pageable]="true"
+    [pageSize]="10"
+    [sortable]="true"
+    [filterable]="true"
+    >
+        <kendo-grid-column field="ScreeningId" title="Screeng ID">
+        </kendo-grid-column>
+        <kendo-grid-column field="MovieID" title="Movie ID">
+        </kendo-grid-column>
+        <kendo-grid-column field="Showtime" title="Showtime">
+        </kendo-grid-column>
+        <kendo-grid-column field="Price" title="Price">
+        </kendo-grid-column>
+        <kendo-grid-column field="AvailableSeats" title="AvailableSeats">
+        </kendo-grid-column>
+    </kendo-grid>
+</div>

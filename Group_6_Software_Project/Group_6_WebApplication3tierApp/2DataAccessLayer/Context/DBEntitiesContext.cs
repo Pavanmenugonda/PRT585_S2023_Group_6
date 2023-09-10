@@ -22,6 +22,7 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<Employee> Employees { get; set; }
 
+        public DbSet<Screening> Screenings { get; set; }
 
         //security models
         public DbSet<UserAccount> UserAccounts { get; set; }
