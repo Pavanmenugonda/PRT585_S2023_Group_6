@@ -17,6 +17,7 @@ import { LabelModule } from '@progress/kendo-angular-label';
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 import { MovieComponent } from './components/movie/movie.component';
+import { ScreeningComponent } from './components/screening/screening.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MovieComponent } from './components/movie/movie.component';
     PersonComponent,
     StudentComponent,
     StudentAddEditComponent,
-    MovieComponent
+    MovieComponent,
+    ScreeningComponent
   ],
   imports: [
     BrowserModule,

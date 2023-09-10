@@ -4,11 +4,13 @@ import { PersonComponent } from './components/person/person.component';
 import { StudentComponent } from './components/student/student.component';
 import { StudentAddEditComponent } from './student-add-edit/student-add-edit.component';
 import { MovieComponent } from './components/movie/movie.component';
+import { ScreeningComponent } from './components/screening/screening.component';
 const routes: Routes = [
   { path: 'person', component: PersonComponent },
   { path: 'student', component: StudentComponent },
   { path: 'student/add', component: StudentAddEditComponent },
   { path: 'movie', component: MovieComponent },
+  { path: 'screening', component: ScreeningComponent},
 ];
 
 @NgModule({
