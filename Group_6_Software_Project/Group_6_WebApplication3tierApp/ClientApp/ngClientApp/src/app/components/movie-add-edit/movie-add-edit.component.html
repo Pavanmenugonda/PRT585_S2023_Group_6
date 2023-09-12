@@ -1,0 +1,68 @@
+<div class="container my-5">
+  <h1 class="mb-3">Movie Detail</h1>
+  <div class="example-config">
+    <p></p>
+  </div>
+
+  <form class="k-form k-form-md" [formGroup]="form">
+    <h5>Name should be at least three characters long.</h5>
+    <kendo-formfield>
+      <kendo-label [for]="MovieName" text="Full Name"></kendo-label>
+      <kendo-textbox
+        formControlName="MovieName"
+        [clearButton]="true"
+        #MovieName
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: Full Name is required</kendo-formerror>
+    </kendo-formfield>
+
+    <kendo-label [for]="Genre" text="Genre"></kendo-label>
+    <kendo-dropdownlist
+      
+      [data]="genresWithTextAndValue"
+      [filterable]="true"
+      textField="text"
+      valueField="value"
+      (filterChange)="handleFilter($event)"
+    >
+    </kendo-dropdownlist>
+
+    <kendo-formfield>
+      <kendo-textbox
+        formControlName="Genre"
+        [clearButton]="true"
+        #Genre
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: Genre is required</kendo-formerror>
+    </kendo-formfield>
+    <kendo-formfield>
+      <kendo-label [for]="ReleaseDate" text="ReleaseDate"></kendo-label>
+      <kendo-textbox
+        formControlName="ReleaseDate"
+        [clearButton]="true"
+        #ReleaseDate
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: ReleaseDate is required</kendo-formerror>
+    </kendo-formfield>
+    <kendo-formfield>
+      <kendo-label [for]="Description" text="Description"></kendo-label>
+      <kendo-textbox
+        formControlName="Description"
+        [clearButton]="true"
+        #Description
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: Description is required</kendo-formerror>
+    </kendo-formfield>
+
+    <div class="k-form-buttons">
+      <button kendoButton themeColor="primary" (click)="submitForm()">
+        {{ data.MovieID ? "Save" : "Add" }}
+      </button>
+      <button kendoButton (click)="clearForm()">Clear</button>
+    </div>
+  </form>
+</div>
