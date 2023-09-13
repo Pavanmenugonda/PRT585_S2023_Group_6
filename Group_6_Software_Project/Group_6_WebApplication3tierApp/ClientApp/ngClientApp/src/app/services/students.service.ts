@@ -31,13 +31,13 @@ export class StudentsService {
 
   updateStudent(id: string, editStudentRequest: Student): Observable<Student> {
     
-    return this.http.put<Student>(this.baseUrl + '/api/Students/' + id, editStudentRequest);
+    return this.http.put<Student>(this.baseUrl + '/api/Student/' + id, editStudentRequest);
 
   }
   
   deleteStudent(id: string): Observable<Student> {
     
-    return this.http.delete<Student>(this.baseUrl + '/api/Students/' + id);
+    return this.http.delete<Student>(this.baseUrl + '/api/Student/' + id);
 
   }
 }

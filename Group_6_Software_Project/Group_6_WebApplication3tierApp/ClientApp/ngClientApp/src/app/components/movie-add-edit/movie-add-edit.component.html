@@ -4,8 +4,8 @@
     <p></p>
   </div>
 
-  <form class="k-form k-form-md" [formGroup]="form">
-    <h5>Name should be at least three characters long.</h5>
+  <form class="k-form k-form-md" [formGroup]="myForm">
+    
     <kendo-formfield>
       <kendo-label [for]="MovieName" text="Full Name"></kendo-label>
       <kendo-textbox
@@ -18,34 +18,29 @@
     </kendo-formfield>
 
     <kendo-label [for]="Genre" text="Genre"></kendo-label>
-    <kendo-dropdownlist
-      
-      [data]="genresWithTextAndValue"
-      [filterable]="true"
-      textField="text"
-      valueField="value"
-      (filterChange)="handleFilter($event)"
-    >
-    </kendo-dropdownlist>
-
+    
     <kendo-formfield>
-      <kendo-textbox
-        formControlName="Genre"
-        [clearButton]="true"
+      <kendo-dropdownlist
         #Genre
+        formControlName="Genre"
+        [data]="genresWithTextAndValue"
+        [defaultItem]="{ text: 'Select genre', value: null }"
+        textField="text"
+        valueField="value"
+        [valuePrimitive]="true"
         required
-      ></kendo-textbox>
+      >      
+      </kendo-dropdownlist>
       <kendo-formerror>Error: Genre is required</kendo-formerror>
     </kendo-formfield>
-    <kendo-formfield>
-      <kendo-label [for]="ReleaseDate" text="ReleaseDate"></kendo-label>
-      <kendo-textbox
-        formControlName="ReleaseDate"
-        [clearButton]="true"
+    
+    <kendo-formfield class="arrival-date">
+      <kendo-label [for]="ReleaseDate" text="Release Date"></kendo-label>
+      <kendo-datepicker
         #ReleaseDate
-        required
-      ></kendo-textbox>
-      <kendo-formerror>Error: ReleaseDate is required</kendo-formerror>
+        formControlName="ReleaseDate"
+      ></kendo-datepicker>
+      <kendo-formerror>Error: Arrival date is required</kendo-formerror>
     </kendo-formfield>
     <kendo-formfield>
       <kendo-label [for]="Description" text="Description"></kendo-label>

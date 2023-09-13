@@ -18,7 +18,7 @@ export class MoviesService {
   }
 
   addMovie(addMovieRequest: Movie): Observable<Movie> {
-    
+    console.log(addMovieRequest);
     return this.http.post<Movie>(this.baseUrl + '/api/Movie', addMovieRequest);
 
   }
