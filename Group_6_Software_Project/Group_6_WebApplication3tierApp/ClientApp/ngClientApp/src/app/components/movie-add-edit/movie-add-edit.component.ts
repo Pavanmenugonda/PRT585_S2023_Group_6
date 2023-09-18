@@ -108,7 +108,7 @@ export class MovieAddEditComponent {
     this.moviesService.addMovie(this.myForm.value).subscribe({
       next: (movie: any) => {
         console.log("addMovie",movie);
-        this.router.navigate(['movie']);
+        this.router.navigate(['admin/movies']);
         
         // this.coreService.openSnackBar('Employee added successfully!', 'OK')
       },

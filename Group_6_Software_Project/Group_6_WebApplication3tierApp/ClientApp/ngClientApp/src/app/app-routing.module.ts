@@ -6,13 +6,15 @@ import { StudentAddEditComponent } from './student-add-edit/student-add-edit.com
 import { MovieComponent } from './components/movie/movie.component';
 import { ScreeningComponent } from './components/screening/screening.component';
 import { MovieAddEditComponent } from './components/movie-add-edit/movie-add-edit.component';
+import { AdminMoviesComponent } from './components/admin-movies/admin-movies.component';
 const routes: Routes = [
   { path: 'person', component: PersonComponent },
   { path: 'student', component: StudentComponent },
   { path: 'student/add', component: StudentAddEditComponent },
   { path: 'movie', component: MovieComponent },
-  { path: 'movie/add', component: MovieAddEditComponent },
   { path: 'screening', component: ScreeningComponent},
+  { path: 'admin/movies/add', component: MovieAddEditComponent },
+  { path: 'admin/movies', component: AdminMoviesComponent },
 ];
 
 @NgModule({

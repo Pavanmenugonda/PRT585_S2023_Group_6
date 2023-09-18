@@ -31,13 +31,13 @@ export class MoviesService {
 
   updateMovie(id: string, editMovieRequest: Movie): Observable<Movie> {
     
-    return this.http.put<Movie>(this.baseUrl + '/api/Movies/' + id, editMovieRequest);
+    return this.http.put<Movie>(this.baseUrl + '/api/Movie/' + id, editMovieRequest);
 
   }
   
   deleteMovie(id: string): Observable<Movie> {
     
-    return this.http.delete<Movie>(this.baseUrl + '/api/Movies/' + id);
+    return this.http.delete<Movie>(this.baseUrl + '/api/Movie/' + id);
 
   }
 }
