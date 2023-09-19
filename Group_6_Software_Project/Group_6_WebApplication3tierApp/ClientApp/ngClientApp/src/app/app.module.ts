@@ -18,6 +18,10 @@ import { LayoutModule } from '@progress/kendo-angular-layout';
 import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 import { MovieComponent } from './components/movie/movie.component';
 import { ScreeningComponent } from './components/screening/screening.component';
+import { MovieAddEditComponent } from './components/movie-add-edit/movie-add-edit.component';
+import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+import { AdminMoviesComponent } from './components/admin-movies/admin-movies.component';
+import { DialogsModule } from '@progress/kendo-angular-dialog';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,9 @@ import { ScreeningComponent } from './components/screening/screening.component';
     StudentComponent,
     StudentAddEditComponent,
     MovieComponent,
-    ScreeningComponent
+    ScreeningComponent,
+    MovieAddEditComponent,
+    AdminMoviesComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,9 @@ import { ScreeningComponent } from './components/screening/screening.component';
     LabelModule,
     ReactiveFormsModule,
     LayoutModule,
-    DropDownsModule
+    DropDownsModule,
+    DateInputsModule,
+    DialogsModule
     
   ],
   providers: [],

@@ -18,7 +18,7 @@ export class MoviesService {
   }
 
   addMovie(addMovieRequest: Movie): Observable<Movie> {
-    
+    console.log(addMovieRequest);
     return this.http.post<Movie>(this.baseUrl + '/api/Movie', addMovieRequest);
 
   }
@@ -30,14 +30,14 @@ export class MoviesService {
   }
 
   updateMovie(id: string, editMovieRequest: Movie): Observable<Movie> {
-    
-    return this.http.put<Movie>(this.baseUrl + '/api/Movies/' + id, editMovieRequest);
+    console.log('update movie API', id, editMovieRequest);
+    return this.http.put<Movie>(this.baseUrl + '/api/Movie/update', editMovieRequest);
 
   }
   
   deleteMovie(id: string): Observable<Movie> {
     
-    return this.http.delete<Movie>(this.baseUrl + '/api/Movies/' + id);
+    return this.http.delete<Movie>(this.baseUrl + '/api/Movie/' + id);
 
   }
 }

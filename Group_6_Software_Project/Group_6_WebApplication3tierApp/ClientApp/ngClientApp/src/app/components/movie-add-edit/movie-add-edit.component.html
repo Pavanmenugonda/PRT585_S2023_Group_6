@@ -1,0 +1,65 @@
+<div class="container my-5">
+  <h1 class="mb-3">Movie Detail</h1>
+  <div class="example-config">
+    <p></p>
+  </div>
+
+  <form class="k-form k-form-md" [formGroup]="myForm">
+    
+    <kendo-formfield>
+      <kendo-label [for]="MovieName" text="Full Name"></kendo-label>
+      <kendo-textbox
+        formControlName="MovieName"
+        [clearButton]="true"
+        #MovieName
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: Full Name is required</kendo-formerror>
+    </kendo-formfield>
+
+    <kendo-label [for]="Genre" text="Genre"></kendo-label>
+    
+    <kendo-formfield>
+      <kendo-dropdownlist
+        #Genre
+        formControlName="Genre"
+        [data]="genresWithTextAndValue"
+        [defaultItem]="{ text: 'Select genre', value: null }"
+        textField="text"
+        valueField="value"
+        [valuePrimitive]="true"
+        required
+      >      
+      </kendo-dropdownlist>
+      <kendo-formerror>Error: Genre is required</kendo-formerror>
+    </kendo-formfield>
+    
+    <kendo-formfield class="arrival-date">
+      <kendo-label [for]="ReleaseDate" text="Release Date"></kendo-label>
+      <kendo-datepicker
+        #ReleaseDate
+        formControlName="ReleaseDate"
+      ></kendo-datepicker>
+      <kendo-formerror>Error: Arrival date is required</kendo-formerror>
+    </kendo-formfield>
+    <kendo-formfield>
+      <kendo-label [for]="Description" text="Description"></kendo-label>
+      <kendo-textbox
+        formControlName="Description"
+        [clearButton]="true"
+        #Description
+        required
+      ></kendo-textbox>
+      <kendo-formerror>Error: Description is required</kendo-formerror>
+    </kendo-formfield>
+
+    <div class="k-form-buttons">
+      <button kendoButton themeColor="primary" (click)="submitForm()">
+        {{ data.MovieId ? "Save" : "Add" }}
+      </button>
+      <button kendoButton (click)="clearForm()">Back</button>
+    </div>
+
+  
+  </form>
+</div>
