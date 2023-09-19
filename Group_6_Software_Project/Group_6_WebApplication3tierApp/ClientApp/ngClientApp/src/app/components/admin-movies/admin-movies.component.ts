@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Movie } from 'src/app/models/movie.model';
 import { MoviesService } from 'src/app/services/movies.service';
 import { DialogAction, ActionsLayout } from "@progress/kendo-angular-dialog";
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class AdminMoviesComponent implements OnInit {
 
   _deleteMovie: Movie = {} as Movie;
   
-  constructor(private moviesService: MoviesService) { }
+  constructor(private moviesService: MoviesService, private router: Router) { }
 
   ngOnInit(): void {
     this.moviesService.getAllMovies().subscribe({
@@ -78,4 +79,8 @@ export class AdminMoviesComponent implements OnInit {
     });
   }
   
+  gotoEdit(movie: Movie): void {
+    console.log(movie);
+    this.router.navigate(['admin/movies/edit', movie.MovieId]);
+  }
 }

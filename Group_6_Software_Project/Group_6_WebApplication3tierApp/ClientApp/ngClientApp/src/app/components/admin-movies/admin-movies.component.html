@@ -29,8 +29,10 @@
         <kendo-grid-column title="Actions">
             <ng-template kendoGridCellTemplate let-dataItem>
               <button class="btn btn-danger" (click)="deleteConfirm(dataItem)">Delete</button>
+              <button class="btn btn-primary" (click)="gotoEdit(dataItem)">Edit</button>
+              
             </ng-template>
-          </kendo-grid-column>
+        </kendo-grid-column>
     </kendo-grid>
 </div>
 

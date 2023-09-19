@@ -30,8 +30,8 @@ export class MoviesService {
   }
 
   updateMovie(id: string, editMovieRequest: Movie): Observable<Movie> {
-    
-    return this.http.put<Movie>(this.baseUrl + '/api/Movie/' + id, editMovieRequest);
+    console.log('update movie API', id, editMovieRequest);
+    return this.http.put<Movie>(this.baseUrl + '/api/Movie/update', editMovieRequest);
 
   }
   
