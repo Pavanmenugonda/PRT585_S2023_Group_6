@@ -45,9 +45,10 @@ namespace WebApplication3tierApp.Controllers
             return await _userService.CreateUser(UserModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{UserId}")]
         public async Task<IActionResult> Update([FromBody] UserDto requestDto)
-        {
+        {   
+            requestDto.UserID = int.Parse(HttpContext.Request.RouteValues["UserId"].ToString());
             await _userService.UpdateUser(requestDto.ToUserModel());
             return Ok();
         }

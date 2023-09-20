@@ -24,6 +24,7 @@ namespace _2DataAccessLayer.Ioc
             services.AddScoped<IMovieDal, MovieDal>();
             services.AddScoped<IScreeningDal, ScreeningDal>();
             services.AddScoped<IUserDal, UserDal>();
+            services.AddScoped<IPaymentDal, PaymentDal>();
 
             services.AddScoped<ISecurityDal, SecurityDal>();
             

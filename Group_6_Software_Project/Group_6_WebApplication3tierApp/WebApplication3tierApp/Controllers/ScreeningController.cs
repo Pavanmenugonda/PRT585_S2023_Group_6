@@ -45,9 +45,10 @@ namespace WebApplication3tierApp.Controllers
             return await _screeningService.CreateScreening(movieModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{ScreeningId}")]
         public async Task<IActionResult> Update([FromBody] ScreeningDto requestDto)
         {
+            requestDto.ScreeningId = int.Parse(HttpContext.Request.RouteValues["ScreeningId"].ToString());
             await _screeningService.UpdateScreening(requestDto.ToScreeningModel());
             return Ok();
         }
