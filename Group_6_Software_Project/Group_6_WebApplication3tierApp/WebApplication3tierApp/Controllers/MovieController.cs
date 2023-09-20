@@ -24,6 +24,7 @@ namespace WebApplication3tierApp.Controllers
             _securityService = securityService;
         }
 
+
         [HttpGet("", Name = "GetAllMovies")]
         public async Task<List<MovieDto>> GetAll()
         {
