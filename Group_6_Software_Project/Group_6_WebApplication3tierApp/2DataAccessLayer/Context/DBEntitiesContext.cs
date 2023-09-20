@@ -29,6 +29,8 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<SystemAction> SystemActions { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
     }
 
 }
