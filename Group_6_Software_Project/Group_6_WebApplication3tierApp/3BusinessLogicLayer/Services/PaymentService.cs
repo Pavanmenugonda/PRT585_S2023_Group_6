@@ -13,7 +13,7 @@ namespace _3BusinessLogicLayer.Services
 {
     public class PaymentService :   BaseService, IPaymentService
     {
-        private readonly IPaymentDal _movieDal;
+        private readonly IPaymentDal _paymentDal;
        
         public PaymentService(IPaymentDal movieDal,
             ISecurityService securityService,
@@ -22,17 +22,17 @@ namespace _3BusinessLogicLayer.Services
         //IAuditDal auditDal
         ) : base(securityService, loggingService)
         {
-            _movieDal = movieDal;           
+            _paymentDal = movieDal;           
         }
 
         public async Task<PaymentModel?> GetById(int PaymentId)
         {           
-            return _movieDal.GetById(PaymentId);
+            return _paymentDal.GetById(PaymentId);
         }
 
         public async Task<List<PaymentModel>> GetAll()
         {            
-            return _movieDal.GetAll();
+            return _paymentDal.GetAll();
         }
 
         public async Task<int> CreatePayment(PaymentModel Payment)
@@ -40,7 +40,7 @@ namespace _3BusinessLogicLayer.Services
 
             try
             {
-                var newPaymentId = _movieDal.CreatePayment(Payment);
+                var newPaymentId = _paymentDal.CreatePayment(Payment);
                 return newPaymentId;
 
             }
@@ -54,14 +54,14 @@ namespace _3BusinessLogicLayer.Services
         public async Task UpdatePayment(PaymentModel Payment)
         {
             //write validations here 
-            _movieDal.UpdatePayment(Payment);
+            _paymentDal.UpdatePayment(Payment);
         }
 
         public async Task DeletePayment(int PaymentId)
         {            
             try
             {
-                _movieDal.DeletePayment(PaymentId);
+                _paymentDal.DeletePayment(PaymentId);
             }
             catch (Exception e)
             {

@@ -25,6 +25,7 @@ namespace _2DataAccessLayer.Ioc
             services.AddScoped<IScreeningDal, ScreeningDal>();
             services.AddScoped<IUserDal, UserDal>();
             services.AddScoped<IPaymentDal, PaymentDal>();
+            services.AddScoped<ITicketDal, TicketDal>();
 
             services.AddScoped<ISecurityDal, SecurityDal>();
             
